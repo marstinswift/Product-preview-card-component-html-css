@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kanit:wght@300;400;600;700&family=Montserrat:wght@500;700&display=swap');
+/*font-family: 'Fraunces', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    margin: 30px auto;
+    padding: 0 30px;
+}
+.grid {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.img img {
+    max-width: 100%;
+    display: inherit;
+}
+.card-content {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pro-cat {
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 14px;
+   color: hsl(228, 12%, 48%);
+   font-weight: 500;
+}
+.pro-name  {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 0.9em;
+    color: hsl(212, 21%, 14%); 
+    padding-right: 1rem;
+}
+.pro-des {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.3em;
+
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.corrent-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: hsl(158, 36%, 37%);
+}
+.dissount-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    padding: 1rem;
+}
+
+.bottom-cart {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-style: none;
+    border-radius: 10px;
+    height: 3.7rem;
+    cursor: pointer;
+    
+}
+
+.bottom-cart img {
+    padding-right: 15px;
+}
